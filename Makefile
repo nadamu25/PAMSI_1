@@ -10,7 +10,7 @@ LDFLAGS =
 # Makefile settings - Can be customized.
 APPNAME = pamsi_1
 EXT = .cpp
-SRCDIR = /home/nadamu/Dokumenty/PAMSI/PAMSI_1
+SRCDIR = scr
 OBJDIR = obj
 
 ############## Do not change anything from here downwards! #############

@@ -1,10 +1,11 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
+#include "PQueue.h"
 
 
 
-//uzyskiwanie wiadomosci
+//uzyskiwanie randomowej wiadomosci
 std::string get_message(int len) {
 
 	std::string message;

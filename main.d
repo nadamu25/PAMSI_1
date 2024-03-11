@@ -1,1 +1,1 @@
-obj/main.o: /home/nadamu/Dokumenty/PAMSI/PAMSI_1/main.cpp
+obj/main.o: scr/main.cpp scr/PQueue.h
