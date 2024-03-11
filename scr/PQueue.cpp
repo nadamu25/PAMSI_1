@@ -31,12 +31,15 @@ bool P_queue::is_empty() const {
 }
 
 //sortowanie do góry
-void P_queue::bubble_down() {
-    //cos..
+void P_queue::bubble_down(int i) {
+    int parent_num = (i-1)/2; 
+    if(heap[i].number < heap[parent_num].number) {
+        Package temp{heap[i].number, heap[i].pack};
+    }
 }
 
 //sortowanie w dół
-void P_queue::bubble_up() {
+void P_queue::bubble_up(int i) {
     //cos..
 }
 

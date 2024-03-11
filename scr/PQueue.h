@@ -6,7 +6,7 @@
 
 //struktura pakietu n wiadomosci
 struct Package {
-	int n;
+	int number;
 	std::string pack;
 };
 
@@ -16,8 +16,8 @@ class P_queue {
 		int capacity; //zadeklarowana pojemność (spodziewam sie wiedziec jakiej wielkosci bedzie wiadomosc)
 		Package* heap; //tablica na wskaźniki do danych
 
-		void bubble_up();
-		void bubble_down();
+		void bubble_up(int i);
+		void bubble_down(int i);
 	
 	public:
 		P_queue(int capacity); //konstruktor-> alokuje dynamiczną tablicę na wskaźniki
